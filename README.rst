@@ -16,6 +16,7 @@ Python Boilerplate
 
 Python Boilerplate contains all the boilerplate you need to create a Python package.
 
+A sample project to test the template on `mateuspontesm/cookiecutter-poetry`_
 
 * Free software: BSD 3-Clause 'New' or 'Revised' License
 

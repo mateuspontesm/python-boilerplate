@@ -1,15 +1,31 @@
-graft docs
-graft src
-graft tests
+include *.in
+
+include *.rst
+
+include *.yaml
+
+include *.yapf
+
+include *.yml
 
 include .bumpversion.cfg
 
-include AUTHORS.rst
-include HISTORY.rst
-include CONTRIBUTING.rst
-include LICENSE
-include README.rst
+include tox.ini
 
-include tox.ini .travis.yml .readthedocs.yml .pre-commit-config.yaml
+recursive-include docs *.bat
 
-global-exclude *.py[cod] __pycache__/* *.so *.dylib
+recursive-include docs *.html
+
+recursive-include docs *.py
+
+recursive-include docs *.rst
+
+recursive-include docs *.txt
+
+recursive-include docs Makefile
+
+recursive-include ipython_notebooks *.gitkeep
+
+recursive-include src *.py
+
+recursive-include tests *.py

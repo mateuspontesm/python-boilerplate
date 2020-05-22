@@ -48,6 +48,7 @@ sphinx_rtd_theme = "^0.4.3"
 
 pytest = "^4.6.5"
 pytest-runner = "^5.1"
+pytest-cov = "^2.8.1"
 
 [tool.isort]
 known_first_party = 'python_boilerplate'

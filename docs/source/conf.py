@@ -79,9 +79,8 @@ author = "Mateus Mota"
 # the built documents.
 #
 # The full version, including alpha/beta/rc tags.
-release = "version = release = '0.2.0'"
-# The short X.Y.Z version.
-version = re.match(r"^([0-9]+\.){2}[0-9]+", release).group(0)
+version = release = '0.2.0'
+
 
 # The master toctree document.
 master_doc = 'index'

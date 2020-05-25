@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-boilerplate"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python Boilerplate contains all the boilerplate you need to create a Python package."
 authors = ["Mateus Mota <mateus@example.com>"]
 license = "BSD-3-Clause"
